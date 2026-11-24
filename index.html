@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Forma — Make room for good work</title>
+  <link rel="stylesheet" href="assets/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg sticky-top">
+    <div class="container">
+      <a class="navbar-brand" href="#home"><span class="brandmark">✳</span> forma.</a>
+      <div class="student-identity" aria-label="Developed by Khushi Jain Daga, Roll No. 23bcon1665, Experiment 02">
+        <span>Developed by <strong>Khushi Jain Daga</strong></span>
+        <span>Roll No. 23bcon1665 <span class="identity-divider" aria-hidden="true">|</span> Experiment 02</span>
+      </div>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+      <div class="collapse navbar-collapse" id="menu">
+        <div class="navbar-nav mx-auto gap-lg-4">
+          <a class="nav-link" href="#product">Product</a>
+          <a class="nav-link" href="#features">Features</a>
+          <a class="nav-link" href="#pricing">Pricing</a>
+        </div>
+        <a href="#join" class="btn btn-dark rounded-pill px-4">Get early access ↗</a>
+      </div>
+    </div>
+  </nav>
+  <main id="home">
+    <section class="hero container">
+      <div class="row align-items-center g-5">
+        <div class="col-lg-6">
+          <div class="eyebrow"><span class="dot"></span> THE WORKSPACE, REIMAGINED</div>
+          <h1>Make room<br>for <em>good work.</em></h1>
+          <p class="lead">One thoughtful space for your team's projects, priorities and progress. Less noise. More momentum.</p>
+          <a href="#join" class="btn btn-dark rounded-pill px-4 py-3">Find your flow ↗</a>
+          <a href="#product" class="btn btn-link text-dark">Explore the product ↓</a>
+          <p class="small mt-4 text-secondary">Made for curious teams and ambitious ideas.</p>
+        </div>
+        <div class="col-lg-6">
+          <div class="hero-art">
+            <div class="orb"></div>
+            <div class="dashboard" id="product">
+              <div class="dash-top"><b>✳ forma.</b><span>WORKSPACE / 01</span></div>
+              <div class="dash-body">
+                <aside>
+                  <small>WORKSPACE</small>
+                  <div class="selected">◉ Overview</div>
+                  <div>▤ Projects</div>
+                  <div>◷ Timeline</div>
+                  <div>⚙ Settings</div>
+                </aside>
+                <div class="dash-main">
+                  <div class="d-flex justify-content-between align-items-center"><small>MONDAY / YOUR FOCUS</small><span class="avatar">K</span></div>
+                  <h3>Good morning, team.</h3>
+                  <div class="row g-2 my-3">
+                    <div class="col-6"><div class="metric"><small>In progress</small><strong id="activeCount">3</strong></div></div>
+                    <div class="col-6"><div class="metric green"><small>Completed</small><strong id="doneCount">1</strong></div></div>
+                  </div>
+                  <small>YOUR PRIORITIES · TRY THE DEMO</small>
+                  <div id="tasks" class="mt-2">
+                    <label><input type="checkbox" checked> Define project scope</label>
+                    <label><input type="checkbox"> Review design direction</label>
+                    <label><input type="checkbox"> Prepare sprint plan</label>
+                    <label><input type="checkbox"> Share team update</label>
+                  </div>
+                  <div class="progress mt-3" role="progressbar" aria-label="Task completion" aria-valuemin="0" aria-valuemax="100" aria-valuenow="25"><div id="bar" class="progress-bar" style="width:25%"></div></div>
+                </div>
+              </div>
+            </div>
+            <div class="art-caption">01 / A little more clarity, every day.</div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="strip">
+      <div class="container d-flex flex-wrap justify-content-between gap-3"><span>✳ BUILT FOR BETTER TOGETHER</span><span>Design teams</span><span>Student teams</span><span>Founders</span><span>Remote teams</span></div>
+    </section>
+    <section id="features" class="section container">
+      <div class="row align-items-end mb-5">
+        <div class="col-lg-8"><div class="eyebrow">01 / THE ESSENTIALS</div><h2>Everything in<br>its right place.</h2></div>
+        <div class="col-lg-4"><p>Bring your work into focus with tools that stay out of the way.</p></div>
+      </div>
+      <div class="row g-3">
+        <div class="col-md-4"><article class="feature"><span class="symbol">◎</span><small>01 / ORGANIZE</small><h3>Find your focus.</h3><p>Turn scattered ideas into clear priorities and actionable tasks.</p></article></div>
+        <div class="col-md-4"><article class="feature sage"><span class="symbol">✳</span><small>02 / COLLABORATE</small><h3>Move together.</h3><p>Give everyone a shared picture of what matters right now.</p></article></div>
+        <div class="col-md-4"><article class="feature dark"><span class="symbol">↗</span><small>03 / REFLECT</small><h3>See the progress.</h3><p>Understand what's moving forward and where to focus next.</p></article></div>
+      </div>
+    </section>
+    <section class="story section">
+      <div class="container row mx-auto align-items-center g-4">
+        <div class="col-md-5"><div class="eyebrow">02 / A BETTER RHYTHM</div><h2>Less busy.<br>More <em>meaningful.</em></h2></div>
+        <div class="col-md-7"><blockquote>“A workspace should make the next step obvious, not add another layer of complexity.”</blockquote><p class="small">Illustrative customer perspective · fictional product concept</p></div>
+      </div>
+    </section>
+    <section id="pricing" class="section container">
+      <div class="text-center mb-5">
+        <div class="eyebrow">03 / SIMPLE PRICING</div>
+        <h2>Start where you are.</h2>
+        <div class="btn-group mt-3" role="group" aria-label="Billing period"><button id="monthly" class="btn btn-dark" aria-pressed="true">Monthly</button><button id="yearly" class="btn btn-outline-dark" aria-pressed="false">Yearly · save 20%</button></div>
+      </div>
+      <div class="row g-3 justify-content-center">
+        <div class="col-md-4"><article class="plan"><h3>Personal</h3><p>For your own ideas.</p><div class="price">₹0</div><p>Free forever</p><hr><p>✓ Personal task board<br>✓ Basic project views<br>✓ Progress overview</p><a class="btn btn-outline-dark w-100 rounded-pill" href="#join" data-plan="Personal">Get started</a></article></div>
+        <div class="col-md-4"><article class="plan featured"><div class="eyebrow">MOST FLEXIBLE</div><h3>Team</h3><p>For small teams.</p><div class="price" data-month="499" data-year="399.20">₹499</div><p class="billing">per user / month</p><hr><p>✓ Everything in Personal<br>✓ Shared workspaces<br>✓ Team progress reports</p><a class="btn btn-light w-100 rounded-pill" href="#join" data-plan="Team">Choose Team</a></article></div>
+        <div class="col-md-4"><article class="plan"><h3>Studio</h3><p>For growing organizations.</p><div class="price" data-month="999" data-year="799.20">₹999</div><p class="billing">per user / month</p><hr><p>✓ Everything in Team<br>✓ Advanced reporting<br>✓ Priority support concept</p><a class="btn btn-outline-dark w-100 rounded-pill" href="#join" data-plan="Studio">Choose Studio</a></article></div>
+      </div>
+      <p class="text-center small text-secondary mt-3">Illustrative pricing for this academic startup prototype; no payment is collected.</p>
+    </section>
+    <section id="join" class="join section">
+      <div class="container">
+        <div class="row align-items-center g-5">
+          <div class="col-lg-7"><div class="eyebrow">04 / YOUR NEXT MOVE</div><h2>Good work<br>starts here. ✳</h2></div>
+          <div class="col-lg-5">
+            <p>Join the demo early-access list.</p>
+            <form id="leadForm">
+              <label for="email" class="form-label">Email address</label>
+              <input id="email" class="form-control mb-3" type="email" required placeholder="you@example.com">
+              <label for="plan" class="form-label">Interested in</label>
+              <select id="plan" class="form-select mb-3"><option>Personal</option><option>Team</option><option>Studio</option></select>
+              <button class="btn btn-dark rounded-pill w-100 py-3">Request early access ↗</button>
+              <p id="feedback" role="status" class="mt-3"></p>
+              <small>Demo only. Your entry stays in this browser; no email is sent.</small>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="container py-4 d-flex flex-wrap justify-content-between gap-2">
+    <b>✳ forma.</b>
+    <small class="footer-attribution">Developed by <strong>Khushi Jain Daga</strong> | Roll No. 23bcon1665 | Experiment 02</small>
+    <a href="#home">Back to top ↑</a>
+  </footer>
+  <script src="assets/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
